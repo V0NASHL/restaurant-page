@@ -17,12 +17,14 @@ export function populateHome() {
 
     const slogan = document.createElement("h1");
     slogan.innerText = "A hamburger lover's paradise!"
+    slogan.style.margin = "10px 10px";
 
     const timeInfo = document.createElement("div");
     timeInfo.classList.add("hours");
 
     const opnHours = document.createElement("h2");
     opnHours.innerText = "Opening Hours"
+    opnHours.style.margin = "15px 10px"
 
     const wdHours = document.createElement("h3");
     wdHours.innerText = "Weekday Hours: 10:00 AM - 10:00 PM"
@@ -32,6 +34,7 @@ export function populateHome() {
 
     const locInfo = document.createElement("h2");
     locInfo.innerText = "Location: 123 Somewhere ave, Someplace, NJ"
+    locInfo.style.marginTop = "15px";
 
     main.appendChild(rstName);
     main.appendChild(image);
